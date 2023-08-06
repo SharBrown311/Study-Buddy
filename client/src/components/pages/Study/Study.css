@@ -1,0 +1,29 @@
+.timers-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  border: 1px solid #4444;
+}
+.Timer{
+  height: 30rem;
+  border: 1px solid #4444;
+}
+.timer-display{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 10rem;
+  justify-content: center;
+  align-items: center;
+}
+.Stopwatch{
+  border: 1px solid #4444;
+  height: 30rem;
+}
+.increment-button, 
+.decrement-button{
+  padding: 1rem;
+  background-color: #fff;
+  color: blue;
+}

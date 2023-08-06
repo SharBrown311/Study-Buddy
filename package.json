@@ -1,0 +1,22 @@
+{
+  "name": "study-buddy",
+  "version": "1.0.0",
+  "description": "An application designed to assist education seeking individuals with study tools and methods.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "authors": "Conrad Rhoades, Kyle Shutt, Sharon Brown",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-jwt": "^8.4.1",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^6.10.3",
+    "morgan": "^1.10.0"
+  }
+}

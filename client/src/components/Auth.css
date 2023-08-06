@@ -1,0 +1,36 @@
+.auth-button{
+  color:#fff; 
+  font-size: 1rem; 
+  line-height: 1rem; 
+  padding: 1rem; border-radius: 6%;  
+  background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); 
+  margin-top: 1rem;
+
+}
+
+@media only screen and (max-width:991px){
+.auth-login-form{
+      display: flex;
+      flex-direction: column;
+      border: 0.3rem inset #4e87f0;
+      border-top-left-radius: 40%;
+      border-bottom-right-radius: 40%;
+      padding: 1rem;
+      background-color: #fff;
+      text-align:center ;
+      align-items: center;
+    }
+    .auth-input{
+      width: 15rem;
+    }
+     .toggle-text{
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: 700;
+} 
+  }
+
+
+@media only screen and (max-width: 2560){
+
+}
