@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext, useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import Modal from './Modal'
 import { UserContext } from '../context/UserProvider'
@@ -15,6 +15,9 @@ function Navbar() {
   const closeModal = () => {
     setModalOpen(false);
   };
+  // useEffect(() => {
+
+  // })
   return (
     <div className="header-area header-sticky wow" data-wow-duration="0.75s" data-wow-delay="0s" style={{visibility: "visible", animationDuration: "0.75s",animationDelay: "0s"}}>
 
