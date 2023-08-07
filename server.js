@@ -14,7 +14,7 @@ app.use(express.static(path.join(__dirname, "client", "build")))
 
 // //CONNECTION TO MONGODB
 mongoose.set('strictQuery', false);
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost:27017");
+mongoose.connect(`mongodb+srv://${process.env.USERNAME}:${process.env.PASSWORD}@cluster0.amwwxnt.mongodb.net/studybuddyDB`, () => console.log("Mongoose Connected to DB"));
 
 
 app.use('/auth', require('./routes/authRouter'))
@@ -34,7 +34,7 @@ app.use((err, req, res, next) => {
 
 
 app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "client", "build", "index.html"));
+  res.sendFile(path.join(__dirname, "client", "dist", "index.html"));
 });
 
 app.listen(PORT, () => {
