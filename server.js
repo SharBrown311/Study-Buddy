@@ -4,7 +4,7 @@ const app = express()
 require('dotenv').config()
 const morgan = require('morgan')
 const {expressjwt} = require('express-jwt')
-const PORT = process.env.PORT
+const PORT = process.env.PORT || 5000
 const path = require("path")
 
 //middleware
