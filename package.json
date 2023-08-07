@@ -4,10 +4,9 @@
   "description": "An application designed to assist education seeking individuals with study tools and methods.",
   "main": "server.js",
   "scripts": {
-    "dev": "concurrently \"vite\" \"npm run server\"",
-    "start": "node server.js",
-    "server": "nodemon server.js",
-    "build": "vite build"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js", 
+    "build": "npm run build"
   },
   "keywords": [],
   "authors": "Conrad Rhoades, Kyle Shutt, Sharon Brown",
