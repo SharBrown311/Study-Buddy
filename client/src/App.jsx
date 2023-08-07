@@ -1,4 +1,5 @@
 import React, {useContext} from 'react'
+import "bootstrap/dist/css/bootstrap.css";
 import Navbar from './components/Navbar'
 import {Routes, Route, Link, Navigate} from 'react-router-dom'
 import Protected from './components/Protected'
