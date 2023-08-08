@@ -4,7 +4,7 @@
   "description": "An application designed to assist education seeking individuals with study tools and methods.",
   "main": "server.js",
   "scripts": {
-    "start": "node ./server.js", 
+    "start": "node ./server.js",
     "build": "npm ci"
   },
   "keywords": [],
