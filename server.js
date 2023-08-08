@@ -10,7 +10,7 @@ const path = require("path")
 //middleware
 app.use(express.json())
 app.use(morgan('dev'))
-app.use(express.static(path.join(__dirname, "client", "build")))
+app.use(express.static(path.join(__dirname, "client", "dist")))
 
 // //CONNECTION TO MONGODB
 mongoose.set('strictQuery', false);
