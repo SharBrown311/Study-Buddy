@@ -14,7 +14,7 @@ app.use(express.static(path.join(__dirname, "client", "build")))
 
 // //CONNECTION TO MONGODB
 mongoose.set('strictQuery', false);
-mongoose.connect(`mongodb+srv://${process.env.USERNAME}:${process.env.PASSWORD}@cluster0.amwwxnt.mongodb.net/studybuddyDB`, () => console.log("Mongoose Connected to DB"));
+mongoose.connect(`${process.env.MONGODB_URL}`, () => console.log("Mongoose is Connected"));
 
 
 app.use('/auth', require('./routes/authRouter'))

@@ -4,8 +4,8 @@
   "description": "An application designed to assist education seeking individuals with study tools and methods.",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js", 
-    "build": "npm run build"
+    "start": "node ./server.js", 
+    "build": "npm ci"
   },
   "keywords": [],
   "authors": "Conrad Rhoades, Kyle Shutt, Sharon Brown",
